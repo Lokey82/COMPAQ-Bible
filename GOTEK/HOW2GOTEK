@@ -1,0 +1,20 @@
+This guide explains how to connect a GOTEK to a Compaq Portable II machine to run diagnostic software without needing to obtain disks/diskette drives.
+Do not use this guide for a permanent installation; it is for temporary use only.
+
+NEEDED ITEMS:
+GOTEK Floppy Emulator
+A standard 34-pin ribbon cable (Twisted)
+3 male-female jumper wires
+A power source capable of providing 5VDC (My setup uses an off-brand Arduino's power rail fed by a small battery pack, see image.)
+USB flash drive
+
+1. If not already done, flash your GOTEK Floppy Emulator with FlashFloppy; guides to this process can be found online.
+2. Connect a jumper wire to the GOTEK's far power connector labeled in silkscreen "5V" and connect to your 5V power supply.
+3. Connect the other two jumper wires to the GOTEK's middle power connectors labeled in silkscreen as "GND", and connect to the ground on your 5V power supply.
+4. Connect the twisted end of the 34-pin ribbon cable to the GOTEK.
+5. Configure the GOTEK jumpers to only MO and S1 on.
+6. Open your Compaq and expose the drive controller card.
+7. Unplug the cable connected to the drive controller card's port labeled "FLPY" on the silkscreen.
+8. Install the non-twisted end of the GOTEK's 34-pin cable into the FLPY port.
+
+Your setup is now ready for use.
