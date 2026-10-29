@@ -9,10 +9,10 @@ Intel 80386
 
 Software is organized by disk size (With the exception of DOS versions and software for creating the disks themselves)
 EXTRAS INCLUDED:
-	* Gotek Emulator configuration files
-	* Compaq Portable II Maintenance and Service manual
-	* 1.2MB conversions of the 360KB library
-	* And when I fix my damn Compaq, I will try to remember to leave instructions on how exactly I did it! (Upd. I did it! 10/28/26)
+* Gotek Emulator configuration files
+* Compaq Portable II Maintenance and Service manual
+* 1.2MB conversions of the 360KB library
+* And when I fix my damn Compaq, I will try to remember to leave instructions on how exactly I did it! (Upd. I did it! 10/28/26)
 
 I hope this heap of vintage will be as useful to you as it was to me!
 - Lokey
